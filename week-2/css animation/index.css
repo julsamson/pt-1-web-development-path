@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+}
+.card {
+    position: absolute;
+    height: 100px;
+    width: 240px;
+    background-color: goldenrod;
+    animation: boxAnimation 5s ease-in-out infinite;
+}
+.card header {
+    padding: 20px;
+}
+
+@keyframes boxAnimation {
+    0% {
+        top: 0;
+        left: 50%;
+    }
+
+    25% {
+        top: 50vh;
+        left: 0;
+    }
+
+    50% {
+        top: 100vh;
+        left: 50vw;
+    }
+
+    75% {
+        top: 50vh;
+        left: 100vw;
+    }
+
+    100% {
+        top: 0;
+        left: 50%;
+    }
+
+}

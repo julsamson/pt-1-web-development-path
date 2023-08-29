@@ -40,6 +40,10 @@ build/Release
 
 # Dependency directories
 node_modules/
+**/node_modules/
+week-5/To-do-list/node_modules/
+week-4/Accordion-project/node_modules/
+week-3/blog-page/node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
